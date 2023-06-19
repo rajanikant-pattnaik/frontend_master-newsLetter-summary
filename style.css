@@ -13,7 +13,7 @@ body {
   padding: 15px;
   background-color: white;
   border-radius: 25px;
-  display: none;
+  /* display: none; */
 }
 .form-part section {
   width: 60%;
