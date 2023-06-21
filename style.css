@@ -4,7 +4,7 @@ body {
   font-family: Roboto;
   font-weight: 400;
 }
-.form-part {
+#form-part {
   margin: auto;
   margin-top: 120px;
   display: flex;
@@ -15,7 +15,7 @@ body {
   border-radius: 25px;
   /* display: none; */
 }
-.form-part section {
+#form-part section {
   width: 60%;
   padding: 20px;
 }
@@ -48,6 +48,9 @@ p {
   border-radius: 5px;
   border: 1px solid black;
 }
+#invalid{
+  color: orangered;
+}
 .form-btn {
   width: 288px;
   height: 40px;
@@ -62,20 +65,45 @@ p {
 }
 
 .success{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding: 35px; */
 }
 
-.success section{
+.inner-content{
     width: 300px;
     height: 320px;
     background-color: white;
-    border-radius: 15px;
+    padding: 35px;
+    border-radius: 30px;
 }
 .success section img{
     height: 40px;
     width: 40px;
+}
+
+.inner-content h1{
+  margin-top: 15px;
+  /* line-height: 0.9; */
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.inner-content p{
+  margin-top: -20px;
+}
+.inner-content button{
+  margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: aliceblue;
+}
+.inner-content button:hover{
+  background-color: hsl(4, 100%, 67%);
+  cursor: pointer;
 }
